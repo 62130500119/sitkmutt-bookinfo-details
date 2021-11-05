@@ -1,6 +1,6 @@
 services:
   details:
     build: .
-    image: ghcr.io/62130500119/bookinfo-details:dev
+    image: ghcr.io/62130500119/bookinfo-details:prd
     ports:
       - "8081:8081"
