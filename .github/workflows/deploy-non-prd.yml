@@ -38,5 +38,3 @@ jobs:
                 "COMMIT_SHA": "${{ github.sha }}"
               }
             }
-      - name: Acceptance Test
-        run: curl http://sitkmutt.bookinfo.${{ env.ENV_NAME }}.opsta.net/student48/details/health | grep "details is good"
